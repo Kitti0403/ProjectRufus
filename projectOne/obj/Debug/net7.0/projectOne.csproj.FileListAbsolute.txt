@@ -31,3 +31,22 @@ C:\Users\tanulo\Documents\GitHub\ProjectRufus\projectOne\bin\Debug\net7.0\System
 C:\Users\tanulo\Documents\GitHub\ProjectRufus\projectOne\bin\Debug\net7.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\tanulo\Documents\GitHub\ProjectRufus\projectOne\obj\Debug\net7.0\projectOne.csproj.AssemblyReference.cache
 C:\Users\tanulo\Documents\GitHub\ProjectRufus\projectOne\obj\Debug\net7.0\projectOne.csproj.CopyComplete
+D:\Annus Kitti\ProjectRufus\projectOne\bin\Debug\net7.0\projectOne.exe
+D:\Annus Kitti\ProjectRufus\projectOne\bin\Debug\net7.0\projectOne.deps.json
+D:\Annus Kitti\ProjectRufus\projectOne\bin\Debug\net7.0\projectOne.runtimeconfig.json
+D:\Annus Kitti\ProjectRufus\projectOne\bin\Debug\net7.0\projectOne.dll
+D:\Annus Kitti\ProjectRufus\projectOne\bin\Debug\net7.0\projectOne.pdb
+D:\Annus Kitti\ProjectRufus\projectOne\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\Annus Kitti\ProjectRufus\projectOne\bin\Debug\net7.0\System.Drawing.Common.dll
+D:\Annus Kitti\ProjectRufus\projectOne\bin\Debug\net7.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\Annus Kitti\ProjectRufus\projectOne\obj\Debug\net7.0\projectOne.csproj.AssemblyReference.cache
+D:\Annus Kitti\ProjectRufus\projectOne\obj\Debug\net7.0\projectOne.GeneratedMSBuildEditorConfig.editorconfig
+D:\Annus Kitti\ProjectRufus\projectOne\obj\Debug\net7.0\projectOne.AssemblyInfoInputs.cache
+D:\Annus Kitti\ProjectRufus\projectOne\obj\Debug\net7.0\projectOne.AssemblyInfo.cs
+D:\Annus Kitti\ProjectRufus\projectOne\obj\Debug\net7.0\projectOne.csproj.CoreCompileInputs.cache
+D:\Annus Kitti\ProjectRufus\projectOne\obj\Debug\net7.0\projectOne.csproj.CopyComplete
+D:\Annus Kitti\ProjectRufus\projectOne\obj\Debug\net7.0\projectOne.dll
+D:\Annus Kitti\ProjectRufus\projectOne\obj\Debug\net7.0\refint\projectOne.dll
+D:\Annus Kitti\ProjectRufus\projectOne\obj\Debug\net7.0\projectOne.pdb
+D:\Annus Kitti\ProjectRufus\projectOne\obj\Debug\net7.0\projectOne.genruntimeconfig.cache
+D:\Annus Kitti\ProjectRufus\projectOne\obj\Debug\net7.0\ref\projectOne.dll

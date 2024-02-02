@@ -2,7 +2,9 @@
 using System.Drawing;
 
 Menu();
-static void Menu()
+string playerName = "";
+bool isMiloWithUs = false;
+void Menu()
 {
 
 Console.WriteLine("\r\n ('-. .-.   ('-.                      .-') _  .-') _                                        .-') _    ('-. .-.   ('-.         _ .-') _     ('-.     _  .-')  .-. .-')           ('-.                   ('-.    .-')    \r\n( OO )  /  ( OO ).-.                 ( OO ) )(  OO) )                                      (  OO) )  ( OO )  / _(  OO)       ( (  OO) )   ( OO ).-.( \\( -O ) \\  ( OO )         ( OO ).-.             _(  OO)  ( OO ).  \r\n,--. ,--.  / . --. / ,--. ,--.   ,--./ ,--,' /     '._        .-'),-----.    ,------.      /     '._ ,--. ,--.(,------.       \\     .'_   / . --. / ,------. ,--. ,--.         / . --. /  ,----.    (,------.(_)---\\_) \r\n|  | |  |  | \\-.  \\  |  | |  |   |   \\ |  |\\ |'--...__)      ( OO'  .-.  '('-| _.---'      |'--...__)|  | |  | |  .---'       ,`'--..._)  | \\-.  \\  |   /`. '|  .'   /         | \\-.  \\  '  .-./-')  |  .---'/    _ |  \r\n|   .|  |.-'-'  |  | |  | | .-') |    \\|  | )'--.  .--'      /   |  | |  |(OO|(_\\          '--.  .--'|   .|  | |  |           |  |  \\  '.-'-'  |  | |  /  | ||      /,       .-'-'  |  | |  |_( O- ) |  |    \\  :` `.  \r\n|       | \\| |_.'  | |  |_|( OO )|  .     |/    |  |         \\_) |  |\\|  |/  |  '--.          |  |   |       |(|  '--.        |  |   ' | \\| |_.'  | |  |_.' ||     ' _)       \\| |_.'  | |  | .--, \\(|  '--.  '..`''.) \r\n|  .-.  |  |  .-.  | |  | | `-' /|  |\\    |     |  |           \\ |  | |  |\\_)|  .--'          |  |   |  .-.  | |  .--'        |  |   / :  |  .-.  | |  .  '.'|  .   \\          |  .-.  |(|  | '. (_/ |  .--' .-._)   \\ \r\n|  | |  |  |  | |  |('  '-'(_.-' |  | \\   |     |  |            `'  '-'  '  \\|  |_)           |  |   |  | |  | |  `---.       |  '--'  /  |  | |  | |  |\\  \\ |  |\\   \\         |  | |  | |  '--'  |  |  `---.\\       / \r\n`--' `--'  `--' `--'  `-----'    `--'  `--'     `--'              `-----'    `--'             `--'   `--' `--' `------'       `-------'   `--' `--' `--' '--'`--' '--'         `--' `--'  `------'   `------' `-----'  \r\n");
@@ -26,12 +28,52 @@ switch (menu_opt)
 
 
 
-static void NewGameStart()
+void NewGameStart()
 {
     Console.Clear();
-    Console.WriteLine("blablahblah some story");
+    Console.WriteLine("What's your name?");
+    Console.WriteLine();
+    playerName = Console.ReadLine();
+
+
+
+    Console.WriteLine("You woke up in your mother's house.");
+    Console.WriteLine("It was a strangely quiet morning in Berlin.");
+    Console.WriteLine("A few days ago the doctor took your mom to the hospital, you should pay her a visit soon.");
+    Tutorial();
 }
 
+void Tutorial()
+{
+    Console.WriteLine("Get bro to come with you?");
+    Console.WriteLine("Y/N");
+    string choice = Console.ReadLine();
+    if (choice.ToUpper() == "Y")
+    {
+        Console.WriteLine("Bro not home anyway");
+    }
+    else
+    {
+        Console.WriteLine("Milo (your friend) comes over and offers he'll come with you if you help him get some mushrooms");
+        Console.WriteLine("Will you help him? Y/N");
+
+
+        if (choice.ToUpper() == "Y") {
+            MushroomsMiniGame();
+        }
+        else
+        {
+            
+        }
+    }
+}
+
+void MushroomsMiniGame()
+{
+
+}
+
+/*
 int[] cColors = { 0x000000, 0x000080, 0x008000, 0x008080, 0x800000, 0x800080, 0x808000, 0xC0C0C0, 0x808080, 0x0000FF, 0x00FF00, 0x00FFFF, 0xFF0000, 0xFF00FF, 0xFFFF00, 0xFFFFFF };
 
 void ConsoleWritePixel(Color cValue)
@@ -89,3 +131,4 @@ void ConsoleWriteImage(Bitmap source)
 
 Bitmap bmpSrc = new(@"./forest.png", true);
 ConsoleWriteImage(bmpSrc);
+*/
