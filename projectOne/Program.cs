@@ -4,6 +4,11 @@ using System.Drawing;
 Menu();
 string playerName = "";
 bool isMiloWithUs = false;
+int PlayerHealth = 100;
+int playStrenght = 1;
+string[] enemyNames = {"Gorlock", "Maru", "Bober", "Pingwin", "Bob", "József", "Fereng", "Togepi", "Vojtech", "Kirby"};
+
+
 void Menu()
 {
 
@@ -31,31 +36,31 @@ switch (menu_opt)
 void NewGameStart()
 {
     Console.Clear();
-    Console.WriteLine("What's your name?");
+    Print("What's your name?");
     Console.WriteLine();
     playerName = Console.ReadLine();
 
 
 
-    Console.WriteLine("You woke up in your mother's house.");
-    Console.WriteLine("It was a strangely quiet morning in Berlin.");
-    Console.WriteLine("A few days ago the doctor took your mom to the hospital, you should pay her a visit soon.");
+    Print("You woke up in your mother's house.");
+    Print("It was a strangely quiet morning in Berlin.");
+    Print("A few days ago the doctor took your mom to the hospital, you should pay her a visit soon.");
     Tutorial();
 }
 
 void Tutorial()
 {
-    Console.WriteLine("Get bro to come with you?");
-    Console.WriteLine("Y/N");
+    Print("Get bro to come with you?");
+    Print("Y/N");
     string choice = Console.ReadLine();
     if (choice.ToUpper() == "Y")
     {
-        Console.WriteLine("Bro not home anyway");
+        Print("Bro not home anyway");
     }
     else
     {
-        Console.WriteLine("Milo (your friend) comes over and offers he'll come with you if you help him get some mushrooms");
-        Console.WriteLine("Will you help him? Y/N");
+        Print("Milo (your friend) comes over and offers he'll come with you if you help him get some mushrooms");
+        Print("Will you help him? Y/N");
 
 
         if (choice.ToUpper() == "Y") {
@@ -68,9 +73,53 @@ void Tutorial()
     }
 }
 
+void Print(string text, int speed=60)
+{
+    foreach (char c in text)
+    {
+        Console.Write(c);
+        Thread.Sleep(speed);
+    }
+}
 void MushroomsMiniGame()
 {
 
+}
+
+void Battle(string type)
+{
+    Print("Our homeland is in danger. Everything is awful.");
+    Print("Player Turn");
+    Console.WriteLine("[1] - Attack \n [2] - Items \n [3] - Talk \n [4] - Flee \n");
+
+    string battleChoice = Console.ReadLine();
+    Random rng = new Random();
+
+    int enemyHealth = rng.Next(0, 200);
+    int enemyDamage = rng.Next(5, 20);
+    string enemyName = enemyNames[rng.Next(10)];
+
+
+
+
+
+    switch (battleChoice)
+    {
+        case "1":
+
+
+
+
+            break;
+        case "2":
+            break;
+        case "3":
+            break;
+        case "4":
+            Console.WriteLine("Good Bye!");
+            Print("And you run away like a coward");
+            break;
+    }
 }
 
 /*
